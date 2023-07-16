@@ -1,46 +1,78 @@
-*,*::after,*::before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #ccc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+body {
+  background-color: #ccc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
 }
-.card{
-    background-color: #fff;
-    width: 350px;
-    margin: 10px auto;
+.card {
+  background-color: #fff;
+  width: 350px;
+  margin: 10px auto;
 }
-.card-top{
-    background-color: purple;   
+.card-top {
+  background-color: purple;
 }
-.Result{
-    color: plum;
-    text-align: center;
-    padding: 15px 0px;
+.Result {
+  color: plum;
+  text-align: center;
+  padding: 15px 0px;
 }
-.percent{
-    background-color: rgb(201, 4, 201);
-    width: 150px;
-    height : 150px;
-    border-radius: 100%;
-    text-align: center;
-    margin: 10px auto;
-    padding: 45px 0;
-    color: #fff;
+.percent {
+  background-color: rgb(201, 4, 201);
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 45px 0;
+  color: #fff;
 }
-.score{
-    font-size: 40px;
+.score {
+  font-size: 40px;
 }
-.great{
-    color: #fff;
-    text-align: center;
-    font-size: 22px;
+.great {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
 }
-.text{
-    text-align: center;
-    color: plum;
-    padding: 12px 15px;
+.text {
+  text-align: center;
+  color: plum;
+  padding: 12px 15px;
+}
+.card-bottom {
+  padding: 20px 28px;
+}
+.item {
+  background-color: plum;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin: 10px 0px;
+}
+.item1 {
+  background-color: pink;
+  color: red;
+}
+.item2 {
+  background-color: yellow;
+  color: yellowgreen;
+}
+.item3 {
+  background-color: aquamarine;
+  color: cornflowerblue;
+}
+.item4 {
+  background-color: darkorchid;
+  color: violet;
+}
+.my-svg1 {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
 }
