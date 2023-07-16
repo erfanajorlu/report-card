@@ -21,3 +21,16 @@ body{
     text-align: center;
     padding: 15px 0px;
 }
+.percent{
+    background-color: rgb(201, 4, 201);
+    width: 150px;
+    height : 150px;
+    border-radius: 10   0%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 45px 0;
+    color: #fff;
+}
+.score{
+    font-size: 40px;
+}
