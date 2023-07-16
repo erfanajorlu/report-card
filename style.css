@@ -1,14 +1,23 @@
 *,*::after,*::before{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
     background-color: #ccc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .card{
     background-color: #fff;
     width: 350px;
     margin: 10px auto;
+}
+.card-top{
+    background-color: purple;   
+}
+.Result{
+    color: plum;
+    text-align: center;
+    padding: 15px 0px;
 }
