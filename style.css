@@ -25,7 +25,7 @@ body{
     background-color: rgb(201, 4, 201);
     width: 150px;
     height : 150px;
-    border-radius: 10   0%;
+    border-radius: 100%;
     text-align: center;
     margin: 10px auto;
     padding: 45px 0;
@@ -33,4 +33,14 @@ body{
 }
 .score{
     font-size: 40px;
+}
+.great{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+.text{
+    text-align: center;
+    color: plum;
+    padding: 12px 15px;
 }
